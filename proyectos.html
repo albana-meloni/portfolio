@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="./img/albana-meloni-logo.svg" type="image/x-icon">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +35,7 @@
             <h1 class="main__h1">Bienvenid@ a <span>Mis Proyectos</span></h1>
             <h2 class="main__h2">Los más recientes</h2>
 
-            <article class="project">
+            <article class="project" data-aos="fade-up">
                 <img class="project__img" src="./img/proyectos/mundo-rubik.svg" alt="Logo de Mundo Rubik">
                 <div class="project-content">
                     <h3 class="project__title">Mundo Rubik</h3>
@@ -43,7 +44,7 @@
                 </div>
             </article>
 
-            <article class="project">
+            <article class="project" data-aos="fade-up">
                 <img class="project__img" src="./img/proyectos/crystal-nails.svg" alt="Logo de Crystal Nails">
                 <div class="project-content">
                     <h3 class="project__title">Crystal Nails</h3>
@@ -54,7 +55,7 @@
 
             <h2 class="main__h2">Colaboraciones</h2>
 
-            <article class="project">
+            <article class="project" data-aos="fade-up">
                 <img class="project__img" src="https://via.placeholder.com/150" alt="Logo de Crystal Nails">
                 <div class="project-content">
                     <h3 class="project__title">Gabriel Cleaning</h3>
@@ -63,7 +64,7 @@
                 </div>
             </article>
 
-            <div class="action action--proyectos">
+            <div class="action action--proyectos" data-aos="fade-up" data-aos-duration="500">
                 <p class="action__p">¿Estabas pensando en hacer una página pero no sabes cómo?</p>
                 <p class="action__p">¿Tu sitio web actual no luce bien y lo queres modificar?</p>
                 <a class="button-a" href="./tu-pagina.html">¡Completa el formulario para comenzar!</a>
@@ -82,5 +83,9 @@
 
             <p class="footer__copy">&copy; 2022 Albana Meloni, todos los derechos reservados.</p>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

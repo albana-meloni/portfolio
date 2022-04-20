@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="./img/albana-meloni-logo.svg" type="image/x-icon">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +52,7 @@
             <h1 class="main__h1">Soy <span>Front-End Developer</span></h1>
 
             <div class="card-container">
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="500">
                     <h3 class="card__title">Buenas Prácticas</h3>
     
                     <div class="card__icons">
@@ -64,7 +65,7 @@
                     <p class="card__txt">Página rápida, fácil de encontrar, excelente SEO y alcance a la mayor audiencia posible.</p>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="700">
                     <h3 class="card__title">HTML, CSS & Js</h3>
     
                     <div class="card__icons">
@@ -77,7 +78,7 @@
                     <p class="card__txt">Constante capacitación en los lenguajes principales del desarrollo Front-End.</p>
                 </div>
     
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="900">
                     <h3 class="card__title">Diseño Amigable</h3>
     
                     <div class="card__icons">
@@ -99,7 +100,7 @@
             <div class="project-articles">
                 <h2 class="main__h2">Te invito a ver mis proyectos</h2>
     
-                <article class="project">
+                <article class="project" data-aos="fade-up">
                     <img class="project__img" src="./img/proyectos/mundo-rubik.svg" alt="Logo de Mundo Rubik">
                     <div class="project-content">
                         <h3 class="project__title">Mundo Rubik</h3>
@@ -108,7 +109,7 @@
                     </div>
                 </article>
     
-                <article class="project">
+                <article class="project" data-aos="fade-up">
                     <img class="project__img" src="./img/proyectos/crystal-nails.svg" alt="Logo de Crystal Nails">
                     <div class="project-content">
                         <h3 class="project__title">Crystal Nails</h3>
@@ -117,7 +118,7 @@
                     </div>
                 </article>
     
-                <article class="project">
+                <article class="project" data-aos="fade-up">
                     <img class="project__img" src="https://via.placeholder.com/150" alt="Logo de Gabriel Cleaning">
                     <div class="project-content">
                         <h3 class="project__title">Gabriel Cleaning</h3>
@@ -127,7 +128,7 @@
                 </article>
             </div>
 
-            <div class="about">
+            <div class="about" data-aos="fade-up">
                 <div class="about-content">
                     <img class="about__img" src="./img/perfil.jpg" alt="Foto de perfil">
                     <h2 class="about__title">Acerca de mi</h2>
@@ -150,5 +151,9 @@
 
             <p class="footer__copy">&copy; 2022 Albana Meloni, todos los derechos reservados.</p>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
