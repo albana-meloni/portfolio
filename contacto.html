@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio AM | Contacto</title>
+        <link rel="shortcut icon" href="./img/albana-meloni-logo.svg" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="./index.html#header">
+                <img class="header__logo" src="./img/albana-meloni-logo.svg" alt="Logo de Albana Meloni">
+            </a>
+        </header>
+        <nav>
+            <ul class="nav__menu">
+                <li><a href="./index.html#header">Inicio</a></li>
+                <li><a href="./proyectos.html">Proyectos</a></li>
+                <li><a href="./curriculum.html">Currículum</a></li>
+                <li class="active"><a href="#">Contacto</a></li>
+                <li><a href="./tu-pagina.html">Tu página</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <h1 class="main__h1">Contactame <span>fácilmente</span></h1>
+            <div class="action">
+                <p class="action__p">Si queres contratarme para una página</p>
+                <a class="button-a" href="./tu-pagina.html">clickea acá</a>
+            </div>
+
+            <h2 class="main__h2">Completa los campos para enviar el mensaje.</h2>
+
+            <form class="form" action="https://formspree.io/f/mzboabvv" method="POST">
+                <label for="nombre">Nombre completo<span>*</span></label>
+                <input type="text" name="nombre" placeholder="Albana Meloni" required>
+
+                <label for="email">Email<span>*</span></label>
+                <input type="email" name="email" placeholder="melonialbana@gmail.com" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" placeholder="11 xxxx-xxxx">
+
+                <label for="mensaje">Mensaje<span>*</span></label>
+                <textarea name="mensaje" rows="7" required></textarea>
+
+                <div class="form__buttons">
+                    <input type="reset" value="Borrar todo">
+                    <input type="submit" value="Enviar" class="submit">
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <h3 class="footer__title">Contactos rápidos</h3>
+
+            <div class="footer__links">
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <p class="footer__copy">&copy; 2022 Albana Meloni, todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
