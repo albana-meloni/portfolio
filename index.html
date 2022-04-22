@@ -1,159 +1,207 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio AM | Inicio</title>
-        <link rel="shortcut icon" href="./img/albana-meloni-logo.svg" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio AM | Inicio</title>
+    <link rel="shortcut icon" href="./img/albana-meloni-logo.svg" type="image/x-icon">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="fondo-principal">
-            <div class="oscurecer"></div>
-            <img class="fondo-principal__img" src="./img/fondo-principal.jpg" alt="Imagen de fondo decorativa">
-            <div class="fondo-principal__title">
-                <h2>Hola, soy Albana.</h2>
-                <h2>Diseño y programo sitios web ;)</h2>
+<body>
+    <div class="oscurecer"></div>
+    <div class="fondo-principal container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h2>Hola, soy Albana</h2>
+        <h2>Diseño y programo sitios web ;)</h2>
+        <div class="ver-mas p-2 d-flex flex-column align-items-center">
+            <p>Vení a conocer más</p>
+            <a href="#header"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    </div>
+
+    <header id="header" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#header"><img src="./img/albana-meloni-logo-white.svg" alt="Albana Meloni Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#header">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./curriculum.html">Currículum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tu-pagina.html">Tu página</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="fondo-principal__mas">
-                <p>Vení a conocer más</p>
-                <a class="mas__a" href="#header">
-                    <i class="fa-solid fa-chevron-down"></i>
-                </a>
+        </nav>
+    </header>
+
+    <div class="container my-5"><h1 class="text-center">Soy <span>Front-End Developer</span></h1></div>
+
+    <section class="section container my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Buenas Prácticas</h5>
+                        <div class="card__icons my-4">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <i class="fa-solid fa-arrow-pointer"></i>
+                            <i class="fa-solid fa-database"></i>
+                            <i class="fa-solid fa-table-columns"></i>
+                        </div>
+                        <p class="card-text">Página rápida, fácil de encontrar, excelente SEO y alcance a la mayor audiencia posible.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML, CSS & Js</h5>
+                        <div class="card__icons my-4">
+                            <i class="fa-solid fa-terminal"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js-square"></i>
+                        </div>
+                        <p class="card-text">Constante capacitación en los lenguajes principales del desarrollo Front-End.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño Amigable</h5>
+                        <div class="card__icons my-4">
+                            <i class="fa-solid fa-user-gear"></i>
+                            <i class="fa-solid fa-swatchbook"></i>
+                            <i class="fa-solid fa-palette"></i>
+                            <i class="fa-solid fa-object-group"></i>
+                        </div>
+                        <p class="card-text">Gran experiencia de usuario y posibles clientes al navegar por el sitio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cartel container-fluid d-flex flex-column align-items-center p-3">
+        <p>¿Te interesa lo que leíste?</p>
+        <a href="" class="btn btn-outline-danger">Comencemos con tu página ;)</a>
+    </div>
+
+    <section class="waves container-fluid mt-5 d-flex flex-column align-items-center">
+        <h3 class="text-center my-5">Te invito a conocer mis proyectos</h3>
+
+        <div class="card my-5 w-75 shadow-lg text-center">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-3">
+                    <img src="./img/proyectos/mundo-rubik.svg" class="img-fluid rounded-start p-5" alt="Logo de página Mundo Rubik">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Mundo Rubik</h3>
+                        <hr>
+                        <p class="card-text">Una página donde vas a poder encontrar todo lo relacionado al Cubo de Rubik, desde tutoriales hasta curiosidades. Trabajé en el diseño del logo, la estructura de la página y en el desarrollo Front-End de la misma.</p>
+                        <p class="card-text"><small class="text-muted">En proceso</small></p>
+                    </div>
+                </div>
+                <div class="card-footer"><a target="_blank" class="text-reset">www.mundorubik.com</a></div>
             </div>
         </div>
 
-
-        <header id="header" class="header">
-            <a href="#header">
-                <img class="header__logo" src="./img/albana-meloni-logo.svg" alt="Logo de Albana Meloni">
-            </a>
-        </header>
-        <nav>
-            <ul class="nav__menu">
-                <li class="active"><a href="#header">Inicio</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <li><a href="./curriculum.html">Currículum</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./tu-pagina.html">Tu página</a></li>
-            </ul>
-        </nav>
-
-        <main class="main">
-            <h1 class="main__h1">Soy <span>Front-End Developer</span></h1>
-
-            <div class="card-container">
-                <div class="card" data-aos="fade-up" data-aos-duration="500">
-                    <h3 class="card__title">Buenas Prácticas</h3>
-    
-                    <div class="card__icons">
-                        <i class="fa-solid fa-laptop-code"></i>
-                        <i class="fa-solid fa-arrow-pointer"></i>
-                        <i class="fa-solid fa-database"></i>
-                        <i class="fa-solid fa-table-columns"></i>
-                    </div>
-    
-                    <p class="card__txt">Página rápida, fácil de encontrar, excelente SEO y alcance a la mayor audiencia posible.</p>
+        <div class="card my-5 w-75 shadow-lg text-center">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-3">
+                    <img src="./img/proyectos/crystal-nails.svg" class="img-fluid rounded-start p-5" alt="Logo de página Crystal Nails">
                 </div>
-
-                <div class="card" data-aos="fade-up" data-aos-duration="700">
-                    <h3 class="card__title">HTML, CSS & Js</h3>
-    
-                    <div class="card__icons">
-                        <i class="fa-solid fa-terminal"></i>
-                        <i class="fa-brands fa-html5"></i>
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <i class="fa-brands fa-js-square"></i>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Crystal Nails</h3>
+                        <hr>
+                        <p class="card-text">Página E-commerce para emprendimiento de uñas Press On, dispone de un catálogo, información sobre el servicio y una galería de fotos. Trabajé en el diseño del logo, la elección de colores y tipografía, estructura de la página y en el desarrollo Front-End.</p>
+                        <p class="card-text"><small class="text-muted">En proceso</small></p>
                     </div>
-    
-                    <p class="card__txt">Constante capacitación en los lenguajes principales del desarrollo Front-End.</p>
                 </div>
-    
-                <div class="card" data-aos="fade-up" data-aos-duration="900">
-                    <h3 class="card__title">Diseño Amigable</h3>
-    
-                    <div class="card__icons">
-                        <i class="fa-solid fa-user-gear"></i>
-                        <i class="fa-solid fa-swatchbook"></i>
-                        <i class="fa-solid fa-palette"></i>
-                        <i class="fa-solid fa-object-group"></i>
-                    </div>
-    
-                    <p class="card__txt">Gran experiencia de usuario y posibles clientes al navegar por el sitio.</p>
+                <div class="card-footer"><a target="_blank" class="text-reset">www.crystalnails.com</a></div>
+            </div>
+        </div>
+
+        <div class="card my-5 w-75 shadow-lg text-center">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-3">
+                    <img src="https://via.placeholder.com/150" class="img-fluid rounded-start p-5" alt="Logo de página Gabriel Cleaning">
                 </div>
-            </div>
-
-            <div class="action">
-                <p class="action__p">¿Te interesa lo que leíste?</p>
-                <a class="button-a" href="./tu-pagina.html">Comencemos con tu página ;)</a>
-            </div>
-
-            <div class="project-articles">
-                <h2 class="main__h2">Te invito a ver mis proyectos</h2>
-    
-                <article class="project" data-aos="fade-up">
-                    <img class="project__img" src="./img/proyectos/mundo-rubik.svg" alt="Logo de Mundo Rubik">
-                    <div class="project-content">
-                        <h3 class="project__title">Mundo Rubik</h3>
-                        <a class="project__link process">www.mundorubik.com</a>
-                        <p class="project__p">Una página donde vas a poder encontrar todo lo relacionado al Cubo de Rubik, desde tutoriales para resolverlo y curiosidades hasta los mejores precios del mercado. Trabajé en el diseño del logo, la estructura de la página y ahora mismo en el desarrollo Front-End de la misma.<span>Aún en proceso.</span></p>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Gabriel Cleaning</h3>
+                        <hr>
+                        <p class="card-text">Landing Page para emprendimiento de limpieza de pisos a domicilio. Cuenta con una sección de servicios, acerca de y un formulario totalmente funcional para solicitar la limpieza. Página en desarrollo en equipo.</p>
+                        <p class="card-text"><small class="text-muted">En proceso</small></p>
                     </div>
-                </article>
-    
-                <article class="project" data-aos="fade-up">
-                    <img class="project__img" src="./img/proyectos/crystal-nails.svg" alt="Logo de Crystal Nails">
-                    <div class="project-content">
-                        <h3 class="project__title">Crystal Nails</h3>
-                        <a class="project__link process">www.crystalnails.com</a>
-                        <p class="project__p">Página E-commerce para emprendimiento de uñas Press On, dispone de un catálogo, información sobre el servicio y una galería de fotos. Trabajé en el diseño del logo, la elección de colores y tipografía, estructura de la página y en el desarrollo Front-End, el Back-End está siendo desarrollado en equipo.<span>Aún en proceso.</span></p>
-                    </div>
-                </article>
-    
-                <article class="project" data-aos="fade-up">
-                    <img class="project__img" src="https://via.placeholder.com/150" alt="Logo de Gabriel Cleaning">
-                    <div class="project-content">
-                        <h3 class="project__title">Gabriel Cleaning</h3>
-                        <a class="project__link process">www.gabrielcleaning.com</a>
-                        <p class="project__p">Landing Page para emprendimiento de limpieza de pisos a domicilio. Cuenta con una sección de servicios, acerca de y un formulario totalmente funcional para solicitar los servicios. Página en desarrollo en equipo.<span>Aún en proceso.</span></p>
-                    </div>
-                </article>
-            </div>
-
-            <div class="about" data-aos="fade-up">
-                <div class="about-content">
-                    <img class="about__img" src="./img/perfil.jpg" alt="Foto de perfil">
-                    <h2 class="about__title">Acerca de mi</h2>
                 </div>
-                <p class="about__txt">Actualmente estoy estudiando en Coder House para conseguir certificación. Tengo un año de experiencia en programación Front-End trabajando en proyectos personales estudiando de forma autodidacta. Recientemente comencé a trabajar en dos proyectos personales y una colaboración construyéndolas con código nativo.</p>
-
-                <a class="button-a" href="./proyectos.html">Ver los proyectos</a>
+                <div class="card-footer"><a target="_blank" class="text-reset">www.cleaningbygabriel.com</a></div>
             </div>
-        </main>
+        </div>
+    </section>
 
-        <footer class="footer">
-            <h3 class="footer__title">Contactos rápidos</h3>
+    <section class="waves-2 container-fluid">
+        <div class="card shadow text-center my-5 p-3 mx-auto">
+            <img src="./img/perfil.jpg" class="card-img rounded-circle" alt="Foto de perfil">
+            <div class="card-body">
+                <h3 class="card-title">Acerca de mi</h3>
+                <hr>
+                <p class="card-text">Actualmente estoy estudiando en Coder House para conseguir certificación. Tengo un año de experiencia en programación Front-End trabajando en proyectos personales estudiando de forma autodidacta. Recientemente comencé a trabajar en dos proyectos personales y una colaboración construyéndolas con código nativo.</p>
+                <a href="#" class="btn btn-outline-danger">Ver proyectos</a>
+            </div>
+        </div>
+    </section>
 
-            <div class="footer__links">
+    <footer class="footer text-center container-fluid pt-3">
+        <div class="row">
+            <h5>Contactos rápidos</h5>
+        </div>
+        <div class="row">
+            <div class="footer__icons">
                 <a href="https://github.com/albana-meloni" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="mailto:melonialbana@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             </div>
+        </div>
+        <div class="row">
+            <small>&copy; 2022 Albana Meloni, todos los derechos reservados.</small>
+        </div>
+    </footer>
 
-            <p class="footer__copy">&copy; 2022 Albana Meloni, todos los derechos reservados.</p>
-        </footer>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-    </body>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 </html>
