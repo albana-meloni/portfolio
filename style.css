@@ -6,7 +6,6 @@
 }
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    line-height: 1.5;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
@@ -107,10 +106,20 @@ h1 > span {
 .cartel {
     background-color: #9b0f28;
     color: #fff;
+    font-weight: 700;
 }
 .cartel > a {
     color: #9b0f28;
     font-family: 'Poppins', sans-serif;
+}
+.cartel-2 {
+    background-color: #ddd;
+    color: #9b0f28;
+    font-weight: 700;
+    margin: 100px 0 0;
+}
+.cartel-2 > a {
+    background-color: #9b0f28;
 }
 
 
@@ -136,14 +145,18 @@ h1 > span {
     color: #9b0f28;
     cursor: not-allowed;
 }
+.colab {
+    color: #fff;
+}
 
-
+/* ABOUT */
 .card > .card-img {
     width: 12rem;
     height: 12rem;
     object-fit: cover;
     margin: auto;
 }
+
 
 .footer {
     background-color: #9b0f28;
