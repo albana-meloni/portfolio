@@ -162,6 +162,28 @@ h1 > span {
     margin: auto;
 }
 
+/* CURRI */
+.img-perfil {
+    aspect-ratio: 1 / 1;
+    flex-grow: 1;
+    object-fit: cover;
+}
+@media only screen and (min-width: 540px) {
+    .curri .card {
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 660px) {
+    .curri .card {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .curri .card {
+        width: 75%;
+    }
+}
+
 
 .footer {
     background-color: #9b0f28;
