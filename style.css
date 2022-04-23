@@ -184,6 +184,21 @@ h1 > span {
     }
 }
 
+/* FORMULARIOS */
+.form {
+    background-color: #ddd;
+    max-width: 650px;
+    margin: auto;
+}
+label > span {
+    font-weight: 700;
+    color: #9b0f28;
+}
+.svg-form {
+    max-width: 650px;
+    margin: auto;
+}
+
 
 .footer {
     background-color: #9b0f28;
