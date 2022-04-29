@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Poppins:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0; }
+
+ul,
+ol {
+  list-style: none; }
+
+html {
+  scroll-behavior: smooth; }
+
+html::-webkit-scrollbar {
+  display: none; }
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+::selection {
+  background-color: #9b0f28;
+  color: #ddd; }
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
+
+body {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+a {
+  font-weight: 700; }
+
+.oscurecer {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh; }
+
+.fondo-principal {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/fondo-principal.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .fondo-principal h2,
+  .fondo-principal .ver-mas {
+    z-index: 10;
+    text-align: center; }
+  .fondo-principal .ver-mas {
+    position: absolute;
+    bottom: 0; }
+    .fondo-principal .ver-mas p {
+      margin-bottom: 0;
+      color: crimson;
+      font-weight: 700; }
+    .fondo-principal .ver-mas a {
+      color: inherit;
+      font-size: 1.3rem; }
+
+.cartel {
+  background-color: #9b0f28;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3em 0; }
+  .cartel p {
+    color: #ddd; }
+  .cartel a {
+    border-radius: 100vw;
+    background-color: #ddd;
+    color: #9b0f28;
+    border: 1px solid #dc143c;
+    transition: all 200ms ease-in-out;
+    padding: 5px 10px; }
+    .cartel a:hover {
+      background-color: #dc143c;
+      color: #ddd;
+      box-shadow: 0 0 1em #dc143c; }
+
+.cartel-2 {
+  background-color: #ddd;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 3em 0; }
+  .cartel-2 p {
+    color: #9b0f28; }
+
+.cartel-2 + svg {
+  width: 100%; }

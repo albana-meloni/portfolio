@@ -1,0 +1,35 @@
+.oscurecer {
+  position: absolute;
+  background: rgba(0, 0, 0, .7);
+  width: 100vw;
+  height: 100vh;
+}
+.fondo-principal {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/fondo-principal.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  color: white;
+  @include flexColumn;
+  h2,
+  .ver-mas {
+    z-index: 10;
+    text-align: center;
+  }
+  .ver-mas {
+    position: absolute;
+    bottom: 0;
+    p {
+      margin-bottom: 0;
+      color: crimson;
+      font-weight: 700;
+    }
+    a {
+      color: inherit;
+      font-size: 1.3rem;
+    }
+  }
+}
