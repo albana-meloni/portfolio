@@ -5,7 +5,7 @@ $font-body: 'Montserrat Alternates', sans-serif;
 $font-bold: 700;
 $font-bolder: 900;
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: $font-title;
   font-weight: $font-bold;
 }
@@ -13,5 +13,6 @@ body {
   font-family: $font-body;
 }
 a {
+  font-family: $font-title;
   font-weight: $font-bold;
 }

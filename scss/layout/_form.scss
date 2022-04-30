@@ -1,0 +1,15 @@
+.form {
+  background-color: $secondary-color;
+  max-width: 650px;
+  margin: auto;
+}
+label {
+  span {
+    font-weight: $font-bolder;
+    color: $primary-color;
+  }
+}
+.svg-form {
+  max-width: 650px;
+  margin: auto;
+}

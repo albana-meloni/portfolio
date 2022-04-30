@@ -1,0 +1,14 @@
+.waves {
+  background-image: url("../../img/wave.svg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-position-x: center;
+  background-size: cover;
+}
+.waves-2 {
+  background-image: url("../../img/wave-2.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 50px;
+}

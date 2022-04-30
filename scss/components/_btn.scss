@@ -1,0 +1,8 @@
+.btn {
+  background-color: #ddd;
+  border-radius: 100vw;
+}
+.btn-outline-danger:hover,
+.btn-danger:hover {
+  box-shadow: 0 0 1em crimson;
+}

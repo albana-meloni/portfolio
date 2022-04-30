@@ -1,0 +1,27 @@
+.section .card {
+  width: 15rem;
+  margin: 1rem auto;
+  background-color: $secondary-color;
+  border: 0;
+  border-radius: 10px;
+  .card__icons {
+    text-align: center;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    i {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      color: $primary-color;
+    }
+  }
+}
+.card-footer {
+  a {
+    font-weight: 400;
+    cursor: not-allowed;
+  }
+}
+
+
