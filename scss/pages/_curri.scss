@@ -1,3 +1,6 @@
+.waves.curri {
+  @include flexColumn;
+}
 .img-perfil {
   aspect-ratio: 1 / 1;
   flex-grow: 1;

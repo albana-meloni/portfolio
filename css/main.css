@@ -89,19 +89,28 @@ a {
   background-repeat: repeat-x;
   background-position: bottom;
   background-position-x: center;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .waves-2 {
   background-image: url("../../img/wave-2.svg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  padding-top: 50px; }
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .cartel {
   background-color: #9b0f28;
   color: #ffffff;
   padding: 3em 0;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,11 +123,12 @@ a {
   background-color: #dddddd;
   color: #9b0f28;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  padding: 3em 0; }
+  justify-content: center;
+  font-weight: 700;
+  padding: 3em 0;
+  margin-top: 100px; }
   .cartel-2 a {
     margin-top: 10px;
     background-color: #9b0f28; }
@@ -196,6 +206,12 @@ label span {
 
 .colab {
   color: #ffffff; }
+
+.waves.curri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .img-perfil {
   aspect-ratio: 1 / 1;

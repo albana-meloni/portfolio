@@ -2,6 +2,7 @@
   background-color: $primary-color;
   color: $white;
   padding: $y3;
+  font-weight: $font-bold;
   @include flexColumn;
   a {
     margin-top: 10px;
@@ -12,9 +13,10 @@
 .cartel-2 {
   background-color: $secondary-color;
   color: $primary-color;
-  @include flexColumnSpace ($sb);
-  text-align: center;
+  @include flexColumn;
+  font-weight: $font-bold;
   padding: $y3;
+  margin-top: 100px;
   a {
     margin-top: 10px;
     background-color: $primary-color;

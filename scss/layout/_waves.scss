@@ -4,6 +4,7 @@
   background-position: bottom;
   background-position-x: center;
   background-size: cover;
+  @include flexColumn;
 }
 .waves-2 {
   background-image: url("../../img/wave-2.svg");
@@ -11,4 +12,5 @@
   background-position: top;
   background-size: cover;
   padding-top: 50px;
+  @include flexColumn;
 }
