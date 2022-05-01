@@ -189,10 +189,13 @@ label span {
   color: #ffffff; }
   .footer .footer__icons a {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 10px; }
     .footer .footer__icons a:hover {
       color: #dddddd; }
+  .footer h5 {
+    font-size: 1rem;
+    padding: 0; }
 
 @media only screen and (min-width: 768px) {
   .about {
