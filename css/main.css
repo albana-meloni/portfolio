@@ -59,8 +59,8 @@ a {
 .fondo-principal {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/fondo-principal.jpg");
   background-color: black;
+  background-image: url("../img/fondo-principal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
@@ -85,7 +85,7 @@ a {
       font-size: 1.3rem; }
 
 .waves {
-  background-image: url("../../img/wave.svg");
+  background-image: url("../img/wave.svg");
   background-repeat: repeat-x;
   background-position: bottom;
   background-position-x: center;
@@ -96,7 +96,7 @@ a {
   justify-content: center; }
 
 .waves-2 {
-  background-image: url("../../img/wave-2.svg");
+  background-image: url("../img/wave-2.svg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
