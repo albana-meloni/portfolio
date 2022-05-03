@@ -1,5 +1,5 @@
 .waves {
-  background-image: url("../../img/wave.svg");
+  background-image: url("../img/wave.svg");
   background-repeat: repeat-x;
   background-position: bottom;
   background-position-x: center;
@@ -7,7 +7,7 @@
   @include flexColumn;
 }
 .waves-2 {
-  background-image: url("../../img/wave-2.svg");
+  background-image: url("../img/wave-2.svg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
