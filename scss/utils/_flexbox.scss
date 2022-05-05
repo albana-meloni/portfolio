@@ -11,7 +11,7 @@ $se: space-evenly;
 
 @mixin flexColumnSpace ($s) {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: $s;
 }
