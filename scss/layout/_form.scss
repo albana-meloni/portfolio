@@ -1,12 +1,12 @@
 .form {
-  background-color: $secondary-color;
+  background-color: map-get($main-colors, secondary);
   max-width: 650px;
   margin: auto;
 }
 label {
   span {
-    font-weight: $font-bolder;
-    color: $primary-color;
+    font-weight: bolder;
+    color: map-get($main-colors, primary);
   }
 }
 .svg-form {

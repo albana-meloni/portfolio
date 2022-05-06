@@ -1,13 +1,13 @@
 .footer {
-  background-color: $primary-color;
-  color: $white;
+  background-color: map-get($main-colors, primary);
+  color: map-get($main-colors, blanco);
   .footer__icons {
     a {
-      color: $white;
+      color: map-get($main-colors, blanco);
       font-size: 1.3rem;
       padding: 10px;
       &:hover {
-        color: $secondary-color;
+        color: map-get($main-colors, secondary);
       }
     }
   }

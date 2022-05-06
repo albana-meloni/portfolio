@@ -1,24 +1,28 @@
-.cartel {
-  background-color: $primary-color;
-  color: $white;
+%action {
   padding: $y3;
-  font-weight: $font-bold;
+  font-weight: bold;
   @include flexColumn;
+}
+%actionA {
+  margin-top: 10px;
+  color: map-get($main-colors, primary);
+}
+
+.cartel {
+  @extend %action;
+  background-color: map-get($main-colors, primary);
+  color: map-get($main-colors, blanco);
   a {
-    margin-top: 10px;
-    color: $primary-color;
+    @extend %actionA;
   }
 }
 
 .cartel-2 {
-  background-color: $secondary-color;
-  color: $primary-color;
-  @include flexColumn;
-  font-weight: $font-bold;
-  padding: $y3;
+  @extend %action;
+  background-color: map-get($main-colors, secondary);
+  color: map-get($main-colors, primary);
   margin-top: 100px;
   a {
-    margin-top: 10px;
-    background-color: $primary-color;
+    @extend %actionA;
   }
 }

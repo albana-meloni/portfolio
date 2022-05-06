@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
-$font-title: 'Poppins', sans-serif;
-$font-body: 'Montserrat Alternates', sans-serif;
-$font-bold: 700;
-$font-bolder: 900;
+$fonts: (
+  title: 'Poppins',
+  body: 'Montserrat Alternates'
+);
 
 h1, h2, h3, h4, h5 {
-  font-family: $font-title;
-  font-weight: $font-bold;
+  font-family: map-get($fonts, title);
+  font-weight: bold;
 }
 body {
-  font-family: $font-body;
+  font-family: map-get($fonts, body);
 }
 a {
-  font-family: $font-title;
-  font-weight: $font-bold;
+  font-family: map-get($fonts, title);
+  font-weight: bold;
 }

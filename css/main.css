@@ -40,15 +40,15 @@ h1 > span {
   color: #9b0f28; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700; }
+  font-family: "Poppins";
+  font-weight: bold; }
 
 body {
-  font-family: "Montserrat Alternates", sans-serif; }
+  font-family: "Montserrat Alternates"; }
 
 a {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700; }
+  font-family: "Poppins";
+  font-weight: bold; }
 
 .oscurecer {
   position: absolute;
@@ -59,12 +59,12 @@ a {
 .fondo-principal {
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: #333;
   background-image: url("../img/fondo-principal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,7 +78,7 @@ a {
     bottom: 0; }
     .fondo-principal .ver-mas p {
       margin-bottom: 0;
-      color: crimson;
+      color: #dc143c;
       font-weight: 700; }
     .fondo-principal .ver-mas a {
       color: inherit;
@@ -106,47 +106,41 @@ a {
   align-items: center;
   justify-content: center; }
 
-.cartel {
-  background-color: #9b0f28;
-  color: #ffffff;
+.cartel, .cartel-2 {
   padding: 3em 0;
-  font-weight: 700;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .cartel a {
-    margin-top: 10px;
-    color: #9b0f28; }
+
+.cartel a, .cartel-2 a {
+  margin-top: 10px;
+  color: #9b0f28; }
+
+.cartel {
+  background-color: #9b0f28;
+  color: #ffffff; }
 
 .cartel-2 {
   background-color: #dddddd;
   color: #9b0f28;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  padding: 3em 0;
   margin-top: 100px; }
-  .cartel-2 a {
-    margin-top: 10px;
-    background-color: #9b0f28; }
 
 .btn {
-  background-color: #ddd;
+  background-color: #dddddd;
   border-radius: 100vw; }
 
 .btn-outline-danger:hover,
 .btn-danger:hover {
-  box-shadow: 0 0 1em crimson; }
+  box-shadow: 0 0 1em #dc143c; }
 
 header {
   background-color: rgba(155, 15, 40, 0.8);
   backdrop-filter: blur(0.5em); }
   header .logo {
     width: 65px;
-    color: #fff; }
+    color: #ffffff; }
   header .navbar-toggler {
     border: 0; }
 
@@ -177,7 +171,7 @@ header {
   margin: auto; }
 
 label span {
-  font-weight: 900;
+  font-weight: bolder;
   color: #9b0f28; }
 
 .svg-form {

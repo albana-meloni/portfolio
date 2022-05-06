@@ -1,14 +1,17 @@
-$primary-color: #9b0f28;
-$secondary-color: #dddddd;
-$accent-color: #dc143c;
-$white: #ffffff;
+$main-colors: (
+  primary: #9b0f28,
+  secondary: #dddddd,
+  accent: #dc143c,
+  blanco: #ffffff,
+  negro: #333
+);
 
 $rounded: 100vw;
-$border: 1px solid $accent-color;
+$border: 1px solid map-get($main-colors, accent);
 
 $smooth: all 200ms ease-in-out;
 
-$shadow-btn: 0 0 1em $accent-color;
+$shadow-btn: 0 0 1em map-get($main-colors, accent);
 $shadow: 0 0 1em rgba(0,0,0,0.3);
 
 $y3: 3em 0;

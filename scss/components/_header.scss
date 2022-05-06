@@ -1,9 +1,9 @@
 header {
-  background-color: rgba($color: $primary-color, $alpha: 0.8);
+  background-color: rgba($color: map-get($main-colors, primary), $alpha: 0.8);
   backdrop-filter: blur(.5em);
   .logo {
     width: 65px;
-    color: #fff;
+    color: map-get($main-colors, blanco);
   }
   .navbar-toggler {
     border: 0;

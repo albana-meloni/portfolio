@@ -1,39 +1,6 @@
-$sb: space-between;
-$sa: space-around;
-$se: space-evenly;
-
 @mixin flexColumn {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-@mixin flexColumnSpace ($s) {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: $s;
-}
-
-@mixin flexRow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-@mixin flexRowWrap {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-@mixin flexRowSpace ($s) {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: $s;
 }

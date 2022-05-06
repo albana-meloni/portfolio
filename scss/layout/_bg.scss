@@ -1,18 +1,18 @@
 .oscurecer {
   position: absolute;
-  background: rgba(0, 0, 0, .7);
+  background: rgba($color: #000000, $alpha: 0.7);
   width: 100vw;
   height: 100vh;
 }
 .fondo-principal {
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: map-get($main-colors, negro);
   background-image: url("../img/fondo-principal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  color: white;
+  color: map-get($main-colors, blanco);
   @include flexColumn;
   h2,
   .ver-mas {
@@ -24,7 +24,7 @@
     bottom: 0;
     p {
       margin-bottom: 0;
-      color: crimson;
+      color: map-get($main-colors, accent);
       font-weight: 700;
     }
     a {

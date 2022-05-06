@@ -1,8 +1,8 @@
 .btn {
-  background-color: #ddd;
+  background-color: map-get($main-colors, secondary);
   border-radius: 100vw;
 }
 .btn-outline-danger:hover,
 .btn-danger:hover {
-  box-shadow: 0 0 1em crimson;
+  box-shadow: 0 0 1em map-get($main-colors, accent);
 }
