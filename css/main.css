@@ -191,9 +191,9 @@ label span {
     padding: 10px; }
     .footer .footer__icons a:hover {
       color: #dddddd; }
-  .footer h5 {
+  .footer h4 {
     font-size: 1rem;
-    padding: 0; }
+    margin-bottom: 5px; }
 
 @media only screen and (min-width: 768px) {
   .about {
