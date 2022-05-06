@@ -3,6 +3,7 @@ header {
   backdrop-filter: blur(.5em);
   .logo {
     width: 65px;
+    height: 28px;
     color: map-get($main-colors, blanco);
   }
   .navbar-toggler {

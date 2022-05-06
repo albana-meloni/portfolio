@@ -1,13 +1,22 @@
 @media only screen and (min-width: 768px) {
   .about {
-      width: 70%;
+    width: 70%;
   }
 }
-.card {
-  &>.card-img {
-    width: 12rem;
-    height: 12rem;
-    object-fit: cover;
-    margin: auto;
+
+.img-fluid,
+.card-img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  margin: auto;
+}
+
+
+@media only screen and (min-width: 630px) {
+  .img-fluid,
+  .card.img {
+    width: 9rem;
+    height: 9rem;
   }
 }

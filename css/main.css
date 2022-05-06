@@ -48,7 +48,8 @@ body {
 
 a {
   font-family: "Poppins";
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
 
 .oscurecer {
   position: absolute;
@@ -60,7 +61,7 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: #333;
-  background-image: url("../img/fondo-principal.jpg");
+  background-image: url("../img/fondo-principal.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
@@ -140,6 +141,7 @@ header {
   backdrop-filter: blur(0.5em); }
   header .logo {
     width: 65px;
+    height: 28px;
     color: #ffffff; }
   header .navbar-toggler {
     border: 0; }
@@ -150,6 +152,8 @@ header {
   background-color: #dddddd;
   border: 0;
   border-radius: 10px; }
+  .section .card .card-title {
+    font-size: 1.2rem; }
   .section .card .card__icons {
     text-align: center;
     width: fit-content;
@@ -195,11 +199,18 @@ label span {
   .about {
     width: 70%; } }
 
-.card > .card-img {
+.img-fluid,
+.card-img {
   width: 12rem;
   height: 12rem;
   object-fit: cover;
   margin: auto; }
+
+@media only screen and (min-width: 630px) {
+  .img-fluid,
+  .card.img {
+    width: 9rem;
+    height: 9rem; } }
 
 .colab {
   color: #ffffff; }

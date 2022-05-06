@@ -15,4 +15,5 @@ body {
 a {
   font-family: map-get($fonts, title);
   font-weight: bold;
+  text-decoration: none;
 }
