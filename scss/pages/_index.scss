@@ -16,7 +16,6 @@
 @media only screen and (min-width: 630px) {
   .img-fluid,
   .card.img {
-    width: 9rem;
-    height: 9rem;
+    flex-grow: 3;
   }
 }
