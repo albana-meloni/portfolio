@@ -202,7 +202,7 @@ label span {
 .img-fluid,
 .card-img {
   width: 12rem;
-  height: 12rem;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   margin: auto; }
 
