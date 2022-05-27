@@ -3,7 +3,8 @@ $main-colors: (
   secondary: #dddddd,
   accent: #dc143c,
   blanco: #ffffff,
-  negro: #333
+  negro: #333,
+  ghost-pink: #ff5e65
 );
 
 $rounded: 100vw;
@@ -15,6 +16,3 @@ $shadow-btn: 0 0 1em map-get($main-colors, accent);
 $shadow: 0 0 1em rgba(0,0,0,0.3);
 
 $y3: 3em 0;
-$x3: 0 3em;
-$y5: 5em 0;
-$x5: 0 5em;
