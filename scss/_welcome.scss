@@ -1,0 +1,19 @@
+section.welcome {
+  padding: 2rem;
+  h1 {
+    font-size: 5em;
+    line-height: 1;
+    span {
+      color: $red;
+      text-decoration: underline;
+    }
+  }
+  h2 {
+    font-size: 3em;
+    margin: 2rem 0;
+    line-height: 1;
+  }
+  p {
+    font-size: 1.5em;
+  }
+}
