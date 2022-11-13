@@ -87,7 +87,7 @@ section.welcome {
   transform: rotate(135deg); }
 
 .dropdown-container.active .dropdown {
-  max-height: 500px; }
+  max-height: 800px; }
   .dropdown-container.active .dropdown .img .polaroid {
     opacity: 1; }
 
@@ -139,12 +139,10 @@ section.welcome {
   font-size: 1.2rem;
   overflow: hidden; }
   .dropdown-container div.dropdown .text {
-    margin-bottom: 1em;
-    width: 80%; }
+    margin-bottom: 1em; }
     .dropdown-container div.dropdown .text p {
       pointer-events: none;
-      margin-left: 2em;
-      margin-bottom: 0.5em;
+      margin: 0 1em 0.5em 2em;
       opacity: 0;
       transition: transform .5s, opacity .5s;
       transform: translateY(-20px); }
@@ -156,18 +154,19 @@ section.welcome {
         transition-delay: .4s; }
       .dropdown-container div.dropdown .text p:nth-of-type(4) {
         transition-delay: .5s; }
-  .dropdown-container div.dropdown .img .polaroid {
-    opacity: 0;
-    transition: opacity 0.6s;
-    transition-delay: 1s;
-    margin: 1rem auto;
-    width: 200px;
-    border-top: 15px solid #f5f5f5;
-    border-right: 15px solid #f5f5f5;
-    border-bottom: 40px solid #f5f5f5;
-    border-left: 15px solid #f5f5f5;
-    transform: rotate(8deg);
-    box-shadow: 0px 0px 30px -14px rgba(55, 55, 55, 0.75); }
+  .dropdown-container div.dropdown .img {
+    margin: 1rem auto 1.5rem; }
+    .dropdown-container div.dropdown .img .polaroid {
+      opacity: 0;
+      transition: opacity 0.6s;
+      transition-delay: 1s;
+      width: 200px;
+      border-top: 15px solid #f5f5f5;
+      border-right: 15px solid #f5f5f5;
+      border-bottom: 40px solid #f5f5f5;
+      border-left: 15px solid #f5f5f5;
+      transform: rotate(8deg);
+      box-shadow: 0px 0px 30px -14px rgba(55, 55, 55, 0.75); }
 
 .dropdown-container ul {
   list-style: none; }
@@ -191,3 +190,11 @@ section.welcome {
       .dropdown-container ul li a:hover {
         color: #dc143c;
         border-bottom: 3px solid #dc143c; }
+
+@media only screen and (min-width: 1024px) {
+  .dropdown-container div.dropdown .text {
+    width: 70%; } }
+
+@media only screen and (min-width: 1440px) {
+  .dropdown-container div.dropdown .text {
+    width: 60%; } }

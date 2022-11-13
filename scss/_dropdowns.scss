@@ -10,7 +10,7 @@
       transform: rotate(135deg);
     }
     .dropdown {
-      max-height: 500px;
+      max-height: 800px;
       .img {
         .polaroid {
           opacity: 1;
@@ -69,11 +69,9 @@
     overflow: hidden;
     .text {
       margin-bottom: 1em;
-      width: 80%;
       p {
         pointer-events: none;
-        margin-left: 2em;
-        margin-bottom: 0.5em;
+        margin: 0 1em 0.5em 2em;
         opacity: 0;
         transition: transform .5s, opacity .5s;
         transform: translateY(-20px);
@@ -84,11 +82,11 @@
       }
     }
     .img {
+      margin: 1rem auto 1.5rem;
       .polaroid {
         opacity: 0;
         transition: opacity 0.6s;
         transition-delay: 1s;
-        margin: 1rem auto;
         width: 200px;
         border-top: 15px solid #f5f5f5;
         border-right: 15px solid #f5f5f5;
@@ -118,6 +116,25 @@
           color: #dc143c;
           border-bottom: 3px solid #dc143c;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .dropdown-container {
+    div.dropdown {
+      .text {
+        width: 70%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .dropdown-container {
+    div.dropdown {
+      .text {
+        width: 60%;
       }
     }
   }
